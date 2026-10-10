@@ -34,7 +34,10 @@
                 "output": "./svg"
               }
             ],
-            "styles": ["src/global.scss", "src/theme/variables.scss"],
+            "styles": [
+              "src/global.scss",
+              "src/theme/variables.scss"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -97,7 +100,9 @@
           "options": {
             "tsConfig": "tsconfig.spec.json",
             "buildTarget": "::development",
-            "setupFiles": ["src/test-setup.ts"]
+            "setupFiles": [
+              "src/test-setup.ts"
+            ]
           },
           "configurations": {
             "ci": {
@@ -120,7 +125,8 @@
   "cli": {
     "schematicCollections": [
       "@ionic/angular-toolkit"
-    ]
+    ],
+    "analytics": "ba29b339-38bc-4d1f-ba6f-bba8a381e5e5"
   },
   "schematics": {
     "@ionic/angular-toolkit:component": {

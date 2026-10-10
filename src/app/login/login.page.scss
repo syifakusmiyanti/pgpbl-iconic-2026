@@ -1,0 +1,41 @@
+.card-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  padding: 20px;
+}
+
+ion-card {
+  width: 100%;
+  max-width: 360px;
+  margin: 0;
+}
+
+.login-header {
+  margin-bottom: 25px;
+}
+
+.login-header h1 {
+  margin: 0 0 5px 0;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.login-header p {
+  margin: 0;
+  font-size: 13px;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+ion-item {
+  --padding-start: 0;
+  --inner-padding-end: 0;
+  margin-bottom: 10px;
+}
+
+ion-button {
+  margin-top: 15px;
+}

@@ -1,17 +1,47 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Profil
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-card>
+
+    <ion-card-header style="display: flex; flex-direction: column; align-items: flex-start;">
+
+
+      <ion-avatar style="width: 100px; height: 100px; margin-bottom: 15px;">
+
+        <img alt="Foto Profil" src="https://i.pinimg.com/1200x/fa/11/d0/fa11d05275ba52485c2f964eef620f52.jpg"
+          style="width: 100%; height: 100%; object-fit: cover;" />
+
+      </ion-avatar>
+
+      <!-- NAMA -->
+      <ion-card-title>
+        Syifa Kusmiyanti
+      </ion-card-title>
+
+      <!-- NIM -->
+      <ion-card-subtitle>
+        24/535339/SV/24204
+      </ion-card-subtitle>
+
+    </ion-card-header>
+
+    <ion-card-content>
+
+      <ion-text color="primary">
+        Departemen Teknologi Kebumian
+        <br>
+        Universitas Gadjah Mada
+      </ion-text>
+
+    </ion-card-content>
+
+  </ion-card>
+
 </ion-content>
