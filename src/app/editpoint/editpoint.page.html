@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tabs/maps"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Edit Point</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <!-- Peta untuk mengubah lokasi point -->
+  <div id="mapedit" style="height: 400px;"></div>
+
+  <!-- Input nama point -->
+  <ion-item>
+    <ion-label position="floating">Name</ion-label>
+    <ion-input [(ngModel)]="name"></ion-input>
+  </ion-item>
+
+  <!-- Input koordinat point -->
+  <ion-item>
+    <ion-label position="floating">Coordinates</ion-label>
+    <ion-input [(ngModel)]="coordinates"></ion-input>
+  </ion-item>
+
+  <!-- Tombol menyimpan perubahan -->
+  <ion-button expand="full" (click)="save()">
+    Save
+  </ion-button>
+
+</ion-content>
